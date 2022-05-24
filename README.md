@@ -1,13 +1,13 @@
 
 
-# Boilerplate Webpack
+# Math-magicians
 
 > A Build tool 
 
 
 ## Built With
 
-- Webpack
+- React
 - Linters
 
 ## Live Demo
