@@ -1,5 +1,5 @@
 import React from 'react';
-import KeypadUI from './component/calculator';
+import KeypadUI from './calculator';
 import calculate from '../logic/calculate';
 
 class Uipadcalculator extends React.Component {
@@ -14,8 +14,8 @@ class Uipadcalculator extends React.Component {
   }
 
    onClick = (e) => {
-     const setDisplayed = this.state;
-     setDisplayed((item) => calculate(item, e.target.innerText));
+     const setDisplayed = calculate(this.state, e.target.innerText);
+     this.setState(setDisplayed);
    };
 
    render() {
