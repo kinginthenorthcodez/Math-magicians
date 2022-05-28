@@ -1,5 +1,5 @@
 import React from 'react';
-import KeypadUI from './component/calculator';
+import Uipadcalculator from './component/uipad';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <KeypadUI />
+        <Uipadcalculator />
       </>
     );
   }
