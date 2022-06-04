@@ -12,13 +12,16 @@ const Uipadcalculator = () => {
 
   return (
     <>
-      <div className="boxCal">
-        <div className="result">
-          {state.total}
-          {state.operation}
-          {state.next}
+      <div className="calculator-sec">
+        <h1 className="cal-title">Let&apos;s Do the Math!</h1>
+        <div className="boxCal">
+          <div className="result">
+            {state.total}
+            {state.operation}
+            {state.next}
+          </div>
+          <KeypadUI click={onClick} />
         </div>
-        <KeypadUI click={onClick} />
       </div>
     </>
   );
