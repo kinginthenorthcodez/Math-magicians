@@ -68,7 +68,7 @@
 .header .nav {
   display: flex;
   width: 100%;
-  max-width: 950px;
+  padding: 0 40px;
   height: 90%;
   justify-content: space-between;
   align-self: center;
