@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Math-magicians
@@ -77,3 +78,6 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 =======
 README FILE
+=======
+# Math-magicians
+>>>>>>> 8468a3f336ff14dbd4c6c2f7af2fad62cad03ff6
