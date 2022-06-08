@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live on github-pages]('https://kinginthenorthcodez.github.io/Math-magicians')
+[Live on github-pages](https://kinginthenorthcodez.github.io/Math-magicians)
 
 ## Getting Started
 
